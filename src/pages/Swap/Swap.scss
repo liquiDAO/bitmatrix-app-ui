@@ -172,6 +172,19 @@
   position: absolute;
 }
 
+.swap-page-tab-left span:before {
+  border-top: 49px solid;
+  border-left: 1px solid;
+  right: 209px;
+  content: "";
+  width: 0px;
+  height: 0px;
+  top: -4px;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(145deg);
+}
+
 .swap-page-tab-middle {
   width: 24%;
 }
@@ -199,6 +212,7 @@
 .selected span:after {
   border-left-color: #adfbc4 !important;
   border-right-color: #adfbc4 !important;
+  z-index: 6 !important;
 }
 
 .swap-page-tab-right span:after {
@@ -210,6 +224,19 @@
   height: 0px;
   top: 0px;
   position: absolute;
+}
+
+.swap-page-tab-right span:before {
+  border-top: 49px solid;
+  border-left: 1px solid;
+  right: 150px;
+  content: "";
+  width: 0px;
+  height: 0;
+  top: -4px;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(215deg);
 }
 
 .swap-footer-tab {
